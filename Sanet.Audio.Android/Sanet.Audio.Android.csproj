@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-android</TargetFramework>
+        <SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'android'">21.0</SupportedOSPlatformVersion>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Sanet.Audio.Android</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>0.1.0-alpha</Version>
+        <Authors>Anton Makarevich</Authors>
+        <Company>Anton Makarevich</Company>
+        <Description>An Android implementation of Sanet.Audio</Description>
+        <LangVersion>12</LangVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Sanet.Audio.Core" Version="0.1.0-alpha" />
+    </ItemGroup>
+
+</Project>
