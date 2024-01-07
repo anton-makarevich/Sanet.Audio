@@ -1,4 +1,5 @@
 ﻿using NAudio.Wave;
+using Sanet.Audio.Core;
 
 namespace Sanet.Audio.NAudio;
 

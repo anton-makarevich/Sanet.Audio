@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio", "Sanet.Audio\Sanet.Audio.csproj", "{A6F6F1FC-0D88-4A08-9D45-A69AC03F6F85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio.Core", "Sanet.Audio.Core\Sanet.Audio.Core.csproj", "{A6F6F1FC-0D88-4A08-9D45-A69AC03F6F85}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio.NAudio", "Sanet.Audio.NAudio\Sanet.Audio.NAudio.csproj", "{FA1A64A3-79D5-4649-A8CF-60E1E2233D58}"
 EndProject

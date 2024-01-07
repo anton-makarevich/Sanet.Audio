@@ -6,14 +6,14 @@
         <Nullable>enable</Nullable>
         <PackageId>Sanet.Audio</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Version>0.0.1-alpha</Version>
+        <Version>0.1.0-alpha</Version>
         <Authors>Anton Makarevich</Authors>
         <Company>Anton Makarevich</Company>
         <Description>An MAudio (windows) implementation of Sanet.Audio</Description>
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Sanet.Audio\Sanet.Audio.csproj" />
+      <ProjectReference Include="..\Sanet.Audio.Core\Sanet.Audio.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>

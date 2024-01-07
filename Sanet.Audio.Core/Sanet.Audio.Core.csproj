@@ -4,9 +4,9 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>Sanet.Audio</PackageId>
+        <PackageId>Sanet.Audio.Core</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <Version>0.0.1-alpha</Version>
+        <Version>0.1.0-alpha</Version>
         <Authors>Anton Makarevich</Authors>
         <Company>Anton Makarevich</Company>
         <Description>A simple cross-platform Audio player used in my personal projects</Description>

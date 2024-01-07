@@ -1,4 +1,4 @@
-﻿namespace Sanet.Audio;
+﻿namespace Sanet.Audio.Core;
 
 public enum AudioFormats
 {
