@@ -4,7 +4,7 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
-        <PackageId>Sanet.Audio</PackageId>
+        <PackageId>Sanet.Audio.NAudio</PackageId>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Version>0.1.0-alpha</Version>
         <Authors>Anton Makarevich</Authors>
@@ -13,12 +13,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Sanet.Audio.Core\Sanet.Audio.Core.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
       <PackageReference Include="NAudio" Version="2.2.1" />
       <PackageReference Include="NAudio.WinMM" Version="2.2.1" />
+      <PackageReference Include="Sanet.Audio.Core" Version="0.1.0-alpha" />
     </ItemGroup>
 
 </Project>
