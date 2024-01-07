@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>Sanet.Audio</PackageId>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <Version>0.0.1-alpha</Version>
+        <Authors>Anton Makarevich</Authors>
+        <Company>Anton Makarevich</Company>
+        <Description>An MAudio (windows) implementation of Sanet.Audio</Description>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Sanet.Audio\Sanet.Audio.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="NAudio" Version="2.2.1" />
+      <PackageReference Include="NAudio.WinMM" Version="2.2.1" />
+    </ItemGroup>
+
+</Project>
