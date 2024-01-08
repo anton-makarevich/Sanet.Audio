@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio.NAudio", "Sanet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio.Android", "Sanet.Audio.Android\Sanet.Audio.Android.csproj", "{57908A00-F9C9-49E7-9A13-70CD4ACBCAF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sanet.Audio.iOS", "Sanet.Audio.iOS\Sanet.Audio.iOS.csproj", "{6AAB5CB8-DE0C-44FC-B1D2-78612599FED7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{57908A00-F9C9-49E7-9A13-70CD4ACBCAF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57908A00-F9C9-49E7-9A13-70CD4ACBCAF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57908A00-F9C9-49E7-9A13-70CD4ACBCAF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AAB5CB8-DE0C-44FC-B1D2-78612599FED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AAB5CB8-DE0C-44FC-B1D2-78612599FED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AAB5CB8-DE0C-44FC-B1D2-78612599FED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AAB5CB8-DE0C-44FC-B1D2-78612599FED7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
