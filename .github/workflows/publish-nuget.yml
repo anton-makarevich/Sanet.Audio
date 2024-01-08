@@ -25,6 +25,7 @@ jobs:
 
       - name: Create nuget packages 
         run: |
+          dotnet workload restore
           dotnet pack  --configuration Release --output ${{ env.NuGetDirectory }}
 
       - name: Publish NuGet package
